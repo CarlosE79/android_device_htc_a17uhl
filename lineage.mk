@@ -1,3 +1,4 @@
+# Copyright (C) 2017 The LineageOS Project
 # Copyright (C) 2015 The CyanogenMod Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
@@ -18,8 +19,8 @@ TARGET_SCREEN_WIDTH := 720
 
 $(call inherit-product, device/huawei/mt2/full_mt2.mk)
 
-# Inherit some common CM stuff.
-$(call inherit-product, vendor/cm/config/common_full_phone.mk)
+# Inherit some common LineageOS stuff.
+$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 # Inherit device configuration
 $(call inherit-product, device/huawei/mt2/mt2.mk)
