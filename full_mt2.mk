@@ -18,8 +18,8 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit device configuration
 $(call inherit-product, device/huawei/mt2/mt2.mk)
 
-PRODUCT_NAME := full_mt2
-PRODUCT_DEVICE := mt2
-PRODUCT_BRAND := huawei
-PRODUCT_MANUFACTURER := Huawei
-PRODUCT_MODEL := Ascend Mate 2
+PRODUCT_NAME := a17_uhl
+PRODUCT_DEVICE := a17_uhl
+PRODUCT_BRAND := htc
+PRODUCT_MANUFACTURER := HTC
+PRODUCT_MODEL := Desire 650
