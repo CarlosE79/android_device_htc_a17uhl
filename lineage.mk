@@ -24,10 +24,10 @@ $(call inherit-product, vendor/cm/config/common_full_phone.mk)
 # Inherit device configuration
 $(call inherit-product, device/huawei/mt2/mt2.mk)
 
-PRODUCT_DEVICE := mt2
-PRODUCT_NAME := lineage_mt2
+PRODUCT_DEVICE := htc_a17uhl
+PRODUCT_NAME := lineage_htc_a17uhl
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-	PRODUCT_NAME=MT2L03 \
-	BUILD_FINGERPRINT=Huawei/MT2L03/hwMT2L03:5.1/HuaweiMT2L03/C00B322:user/release-keys \
-	PRIVATE_BUILD_DESC="MT2-L03-user 5.1 GRJ90 C00B322 release-keys"
+	PRODUCT_NAME=htc_a17uhl \
+	BUILD_FINGERPRINT=htc/a17uhl_00619/htc_a17uhl:6.0.1/MMB29M/859265.5:user/release-keys \
+	PRIVATE_BUILD_DESC="1.00.619.5 8.0_g CL859265 release-keys"
