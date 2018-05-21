@@ -16,8 +16,8 @@
 
 set -e
 
-VENDOR=huawei
-DEVICE=mt2
+VENDOR=htc
+DEVICE=htc_a17uhl
 
 # Load extractutils and do some sanity checks
 MY_DIR="${BASH_SOURCE%/*}"
