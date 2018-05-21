@@ -14,8 +14,8 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-VENDOR=huawei
-DEVICE=mt2
+VENDOR=HTC
+DEVICE=htc_a17uhl
 
 # Load extractutils and do some sanity checks
 MY_DIR="${BASH_SOURCE%/*}"
