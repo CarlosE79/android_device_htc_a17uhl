@@ -14,7 +14,7 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifeq ($(TARGET_DEVICE),mt2)
+ifeq ($(TARGET_DEVICE),htc_a17uhl)
 
 include $(call all-makefiles-under,$(LOCAL_PATH))
 
